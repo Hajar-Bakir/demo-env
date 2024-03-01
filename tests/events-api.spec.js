@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 
 test('Event erstellen', async ({ request }) => {
   const testTitle = 'Test event';
-  const response = await request.post('http://127.0.0.1:3000/', {
+  const response = await request.post('http://127.0.0.1:5500/', {
     data: {
       title: testTitle,
       timestamp: Date.now()
