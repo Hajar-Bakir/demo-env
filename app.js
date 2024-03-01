@@ -11,4 +11,4 @@ app.use(eventRoutes);
 
 //app.listen(process.env.PORT);
 
-app.listen(5500);
+app.listen(3000);
