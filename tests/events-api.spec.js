@@ -17,7 +17,7 @@ test('Event erstellen', async ({ request }) => {
 });
 
 test('Abfrage von Events', async ({ request }) => {
-  const response = await request.get('http://127.0.0.1:3000/');
+  const response = await request.get('http://127.0.0.1:5500/');
   expect(response.ok()).toBeTruthy();
   const resDataRaw = await response.body();
   const resData = JSON.parse(resDataRaw.toString());
